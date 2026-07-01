@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6k0124/T/v1
+canonical_location: https://kanripo.org/bkk/KR6k0124/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 菩薩受齋經
+  identifiers:
+    krp: KR6k0124
+    cbeta: T24n1502
+    cbeta_old_id: T24n1502
+    authorityid: CA0002457
+    json_key: T1502
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T24/T24n1502.xml
+    old_id: T24n1502
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0124_000-T.yaml, hash: 'sha256:c139b5621724b8d8f44bfaec4ba4a5fd588d0c6c222b99f7c3cc500e2fe981b3'}
+  - {seq: 1, filename: KR6k0124_001-T.yaml, hash: 'sha256:486fe68023c87d53fddde23e3626b5059f58a397230548d766225f409c256984'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0124_000-T.markers.yaml, hash: 'sha256:e6b626bee06f45cbb771a98abe18f76f1c775c11869afcd31b902989babbde56'}
+  - {seq: 1, role: markers, filename: assets/KR6k0124_001-T.markers.yaml, hash: 'sha256:3efc98fab748b55a904f6c326adea7eb7c86a3235da0c7749f458862ad354b43'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0124_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1012
+  label: 菩薩受齋經
+  type: juan
+  level: 1
+hash: sha256:1ce2f6d3df727ca7f619c6cc9181cc4b480f577af014a1a9837f8e25bc63a1e8
