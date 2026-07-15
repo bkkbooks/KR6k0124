@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6k0124/v1
 canonical_location: https://kanripo.org/bkk/KR6k0124/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 菩薩受齋經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0124_000.yaml, hash: 'sha256:c139b5621724b8d8f44bfaec4ba4a5fd588d0c6c222b99f7c3cc500e2fe981b3'}
-  - {seq: 1, filename: KR6k0124_001.yaml, hash: 'sha256:486fe68023c87d53fddde23e3626b5059f58a397230548d766225f409c256984'}
+  - {seq: 1, filename: KR6k0124_001.yaml, hash: 'sha256:172c2396025387d844b70a7bb8c73718764c63932f5488d11f2741cfd215c4e8'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6k0124_000.markers.yaml, hash: 'sha256:9c16b92b3bbe70dd34a53a0e9726eb5552884eba86336d4a6577820279d741bf'}
-  - {seq: 1, role: markers, filename: assets/KR6k0124_001.markers.yaml, hash: 'sha256:c4bb5cf9a27f4c3d09c837f988e42716ab8f14d199741e9a75a91c177b6ee92f'}
+  - {seq: 1, role: markers, filename: assets/KR6k0124_001.markers.yaml, hash: 'sha256:6aa7051f755b7340720dd6bf89eee83e6ec89b7aafcebfebe34159e61b03c463'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 菩薩受齋經
   type: juan
   level: 1
-hash: sha256:0b32f522629a916f6c1da300331baf3093278f7c3949545211995b487c0a305a
+hash: sha256:9107fbe62af48ee5a1cfc5ee8f0d9e25fd934ef7d1f5cb9c80e6889a22500cc6
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
